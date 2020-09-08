@@ -1,9 +1,5 @@
 # Angular Project - Udemy App
 ## Content
-- Angular workflow:  
-  - Load `index.html`
-  - Run `dynamically included script-imports`   
-  - Script-imports will dynamically replace `<app-componentXY></app-componentXY>` with components  
 - Components & Databinding
 - Directives
 - Services & Dependency Injection
@@ -17,9 +13,43 @@
 - Deployment
 - Animations & Testing
 
-
-
-# Initial Readme:
+## Basics
+- Angular workflow:  
+  - Load `index.html`
+  - Run `dynamically included script-imports`   
+  - Script-imports will dynamically replace `<app-componentXY></app-componentXY>` with components  
+- Bootstrap  
+  - npm install bootstrap@3
+- Angular flow   
+  - `main.ts` -> `ap.module.ts` -> `app.component.ts` --> now `index.html` can load app-root
+  - index.html contains some scripts automatically
+  
+ ## Components
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ # Initial Readme:
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.8.
 
