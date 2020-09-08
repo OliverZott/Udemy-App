@@ -1,9 +1,21 @@
 # Angular Project - Udemy App
-
+## Content
 - Angular workflow:  
   - Load `index.html`
   - Run `dynamically included script-imports`   
-  - Script-imports will dynamically replace `<app-componentXY></app-componentXY>` with components
+  - Script-imports will dynamically replace `<app-componentXY></app-componentXY>` with components  
+- Components & Databinding
+- Directives
+- Services & Dependency Injection
+- Routing
+- Observables (async code)
+- Forms
+- Pipes
+- Http
+- Authentication
+- Optimization & NgModules
+- Deployment
+- Animations & Testing
 
 
 
