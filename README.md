@@ -25,7 +25,8 @@
   - index.html contains some scripts automatically
   
  ## Components
- 
+ - components: html + ts + css
+ - modules: bundle components to a package
  
  
  
