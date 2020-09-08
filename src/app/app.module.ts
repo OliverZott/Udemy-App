@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
+import { ServersComponent } from './servers/servers.component';
 
 @NgModule({
     declarations: [     // registering components which are imported above
         AppComponent,
-        ServerComponent
+        ServerComponent,
+        ServersComponent
     ],
     imports: [          // adds other modules to this (main) module
         BrowserModule,

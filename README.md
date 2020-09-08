@@ -1,4 +1,6 @@
 # Angular Project - Udemy App
+last video:
+https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6655748#overview
 ## Content
 - Components & Databinding
 - Directives
