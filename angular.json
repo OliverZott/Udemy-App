@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "udemy-app"
+    }
+  },
+  "defaultProject": "udemy-app",
+  "cli": {
+    "analytics": "1bbf9faf-8600-4fff-847d-eb0a3938b65c"
+  }
 }
