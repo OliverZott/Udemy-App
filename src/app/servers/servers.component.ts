@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'app-servers',
+    // selector: 'app-servers',
+    // selector: '[app-servers]', // selector as attribute as in CSS (tslint not recommend)
+    selector: '.app-servers',
     // template: '<app-server></app-server>',
     /* template: `
         <app-server>

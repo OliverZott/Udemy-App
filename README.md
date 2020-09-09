@@ -29,6 +29,10 @@ https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/66557
  ## Components
  - components: html + ts + css
  - modules: bundle components to a package
+ - Templates & Styles ..commit `6ab991ed`
+ - Selector as...   (commit ``)
+   - attribute [] 
+   - class .
  
  
  
