@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
     declarations: [     // registering components which are imported above
@@ -13,6 +14,7 @@ import { ServersComponent } from './servers/servers.component';
     ],
     imports: [          // adds other modules to this (main) module
         BrowserModule,
+        FormsModule,
     ],
     providers: [],
     bootstrap: [AppComponent]
