@@ -16,6 +16,7 @@ import { Component, OnInit } from '@angular/core';
 export class ServersComponent implements OnInit {
 
     allowNewServer = false;
+    serverCreationStatus = 'No server was created!';
 
     constructor() {
         setTimeout(() => {
@@ -26,4 +27,13 @@ export class ServersComponent implements OnInit {
     ngOnInit(): void {
     }
 
+    onCreateServer(): void {
+        this.serverCreationStatus = 'Server was created!';
+    }
+
+
+    // On mouse-over, execute myFunction
+    public myFunction(): void {
+        document.getElementById('myCheck').click();
+    }
 }

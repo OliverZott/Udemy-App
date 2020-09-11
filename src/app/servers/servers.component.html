@@ -1,7 +1,20 @@
+<label >Server Name: </label>
+<input type="text" class="form-control">
+
+
+
 <p>servers-component works!</p>
 <button class="btn btn-primary"
-    [disabled]="!allowNewServer">Add Server</button>
-<p>{{ allowNewServer }}</p>             <!-- String Interpolation version -->
-<p [innerText]="allowNewServer"></p>   <!-- Property Binding version -->
+        [disabled]="!allowNewServer"
+        (click)="onCreateServer()">Add Server</button>      <!-- Property Binding & Event Binding -->
+
+<p>{{ serverCreationStatus }}</p>
+<p>{{ allowNewServer }}</p>                                 <!-- String Interpolation version -->
+<!-- <p [innerText]="allowNewServer"></p> -->               <!-- Property Binding version -->
+
+<form>
+    <input type="checkbox" id="myCheck" (mouseover)="myFunction()" onclick="alert('click event occurred')">
+</form>
+
 <app-server></app-server>
 <app-server></app-server>
