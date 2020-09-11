@@ -17,6 +17,7 @@ https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/66557
 
 ## Basics
 - Angular workflow:  
+  - https://angular.io/guide/bootstrapping 
   - Load `index.html`
   - Run `dynamically included script-imports`   
   - Script-imports will dynamically replace `<app-componentXY></app-componentXY>` with components  
@@ -39,10 +40,13 @@ https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/66557
  
  - **Output Data** **`ts --> html`**  
    - String Interpolation *`{{ data }}`*  
+     - USE: when just outputting something
      - can contain anything returning a string!!
      - like method returning a string or {{ 'string' '}}
    - Property Binding *`[property]="data"`*
+     - USE: when changing property (html-element or directive or component)
      - most time can use property OR data binding
+     
  
  - React to user **Events** **`ts <-- html`**  
    - Event Binding *`(event)="expression"`*

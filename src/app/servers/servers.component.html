@@ -1,5 +1,7 @@
 <p>servers-component works!</p>
 <button class="btn btn-primary"
-    [disabled]="allowNewServer">Add Server</button>
+    [disabled]="!allowNewServer">Add Server</button>
+<p>{{ allowNewServer }}</p>             <!-- String Interpolation version -->
+<p [innerText]="allowNewServer"></p>   <!-- Property Binding version -->
 <app-server></app-server>
 <app-server></app-server>
