@@ -50,6 +50,8 @@ https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/66557
  
  - React to user **Events** **`ts <-- html`**  
    - Event Binding *`(event)="expression"`*
+     - `(input)="..."` ...input is **DOM-Event** provided by **DOM-Element** 
+     - `$event` ...gives access to event-data
  
  - Two-way-binding **`ts <--> html`**  
    - *`[(ngModel)]="data"`*

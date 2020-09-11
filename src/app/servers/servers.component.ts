@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-    // selector: 'app-servers',
-    // selector: '[app-servers]', // selector as attribute as in CSS (tslint not recommend)
-    selector: '.app-servers',
+    selector: '.app-servers',        // selector as element
+    // selector: '[app-servers]',   // selector as attribute as in CSS (tslint not recommend)
+    // selector: '.app-servers',    // selector as class
     // template: '<app-server></app-server>',
     /* template: `
         <app-server>
-            blub
+            test
         </app-server>`,
     */
     templateUrl: './servers.component.html',
@@ -17,6 +17,7 @@ export class ServersComponent implements OnInit {
 
     allowNewServer = false;
     serverCreationStatus = 'No server was created!';
+    serverName = '';
 
     constructor() {
         setTimeout(() => {
@@ -31,9 +32,8 @@ export class ServersComponent implements OnInit {
         this.serverCreationStatus = 'Server was created!';
     }
 
-
-    // On mouse-over, execute myFunction
-    public myFunction(): void {
-        document.getElementById('myCheck').click();
+    onUpdateServerName(event: Event): void {
+        console.log(event);
+        this.serverName = (event.target as HTMLInputElement).value;
     }
 }
