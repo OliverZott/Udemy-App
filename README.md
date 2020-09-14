@@ -64,11 +64,10 @@ https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/66557
   `selector: '[appDirectiveName]'` ... `<div appDirectiveName` 
  
 - Directive Examples:
-  - `*ngIf`
- 
- 
- 
- 
+  - `*ngIf`  ...**Structural Directive**
+  - `ngStyle` ...**Attribute Directive**, for dynamic upgrade style!
+    
+
  
  
 ## Linting
