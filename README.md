@@ -63,10 +63,11 @@ https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/66557
 - use **Attribute style** to select directive !   
   `selector: '[appDirectiveName]'` ... `<div appDirectiveName` 
  
-- Directive Examples:
+#### Directive Examples:
   - `*ngIf`  ...**Structural Directive**
   - `ngStyle` ...**Attribute Directive**, for dynamic upgrade style!
-    
+  - `ngClass`  -//-
+  - `ngFor`
 
  
  
