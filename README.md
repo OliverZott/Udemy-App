@@ -57,14 +57,27 @@ https://www.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/66557
    - *`[(ngModel)]="data"`*
  
  
+## Directives
+- directives = instructions in the DOM
+- components = directives with templates (instruction is: angular plz add template and js)
+- use **Attribute style** to select directive !   
+  `selector: '[appDirectiveName]'` ... `<div appDirectiveName` 
+ 
+- Directive Examples:
+  - `*ngIf`
  
  
  
  
  
  
- 
- 
+## Linting
+https://palantir.github.io/tslint/
+- Script in `package.json`
+- Rules in `tslint.json`
+- `ng lint --fix`  
+- Fixable: https://palantir.github.io/tslint/rules/
+
  
  
  
